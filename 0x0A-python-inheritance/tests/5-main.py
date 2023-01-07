@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-"""Defines an empty class BaseGeometry."""
+BaseGeometry = __import__('5-base_geometry').BaseGeometry
 
+bg = BaseGeometry()
 
-class BaseGeometry:
-    """Represent base geometry."""
-    pass
+print(bg)
+print(dir(bg))
+print(dir(BaseGeometry))
